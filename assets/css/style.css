@@ -40,11 +40,11 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+	background-color: #01566e;
 }
 
 .clr-set {
-    color: #FF2276;
+	color: #01566e;
 }
 
 .f-big {
@@ -53,19 +53,24 @@ section {
 }
 
 .set-bk-clr:hover {
-    background-color: rgba(107, 1, 41, 0.67);
+	background-color: rgba(0, 54, 69, 0.67);
 }
 /*==============================
 NAVBAR STYLES
 ==============================*/
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
 }
-.navbar-brand {
-padding:0px;
 
+
+
+.navbar-brand {
+	padding: 15px;
+	line-height: 20px;
+	font-size: 60px;
+	font-weight: 900;
 }
     .navbar-brand img {
         height:50px;
@@ -93,8 +98,8 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #FF2276;
-    border-color: transparent;
+	background-color: #01566e;
+	border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
 .navbar {
@@ -134,19 +139,18 @@ padding:0px;
 }
 
     #header .overlay {
-        background-color: rgba(3, 3, 3, 0.8);
-        min-height: 700px;
+        background-color: rgba(3, 3, 3, 0.5);
+        min-height: 800px;
     }
 
-    #header h1 {
-        line-height: 60px;
-        font-size: 45px;
-        font-weight: 900;
-        padding-top: 180px;
-        padding-bottom: 35px;
-        color: #FF2276;
-    }
-
+	#header h1 {
+		line-height: 60px;
+		font-size: 45px;
+		font-weight: 900;
+		padding-top: 200px;
+		padding-bottom: 35px;
+		color: #01566e;
+	}
 
     #header h4 {
         line-height: 30px;
@@ -155,20 +159,24 @@ padding:0px;
         text-transform: uppercase;
     }
 
+	#header a {
+		border: 1px solid #01566e;
+	}
+
 /*================================
     SERVICES STYLES
 ==================================*/
-#services {
+#aboutme {
     background-color: rgba(237, 237, 237, 1);
 }
 
-    #services i {
-        font-size: 80px;
-        padding: 30px;
-        color: #FF2276;
-    }
+	#aboutme i {
+		font-size: 80px;
+		padding: 30px;
+		color: #01566e;
+	}
 
-    #services h4 {
+    #aboutme h4 {
         padding-bottom: 5px;
         padding-top: 15px;
     }
@@ -199,25 +207,25 @@ padding:0px;
     padding: 0 30px 30px 30px;
 }
 
-    .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
-    }
+	.clients-carousel .thumbnail {
+		border: 1px solid #01566e;
+	}
 
-    .clients-carousel .carousel-control.left {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-        background: #FF2276;
-        left: -15px;
-    }
+	.clients-carousel .carousel-control.left {
+		height: 30px;
+		width: 25px;
+		margin-top: 45px;
+		background: #01566e;
+		left: -15px;
+	}
 
-    .clients-carousel .carousel-control.right {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-        background: #FF2276;
-        right: -15px;
-    }
+	.clients-carousel .carousel-control.right {
+		height: 30px;
+		width: 25px;
+		margin-top: 45px;
+		background: #01566e;
+		right: -15px;
+	}
 
     .clients-carousel img {
         width: 100%;
@@ -234,8 +242,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+	background-color: #01566e;
+	border: 2px solid #01566e;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -246,9 +254,9 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
-    padding: 2px;
-    margin: 5px 5px 10px 5px;
+	border: 2px solid #01566e;
+	padding: 2px;
+	margin: 5px 5px 10px 5px;
 }
 
 #works img {
@@ -290,10 +298,10 @@ padding:0px;
 }
 
 .media img {
-    margin-right: 40px;
-    max-height: 150px;
-    margin-bottom: 20px;
-    border: 2px solid #FF2276;
+	margin-right: 40px;
+	max-height: 150px;
+	margin-bottom: 20px;
+	border: 2px solid #003645;
 }
 
     .media img:hover {
