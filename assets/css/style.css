@@ -55,6 +55,7 @@ section {
 .set-bk-clr:hover {
 	background-color: rgba(0, 54, 69, 0.67);
 }
+
 /*==============================
 NAVBAR STYLES
 ==============================*/
@@ -63,8 +64,6 @@ NAVBAR STYLES
     font-size: 30px;
     text-transform: uppercase;
 }
-
-
 
 .navbar-brand {
 	padding: 15px;
@@ -98,8 +97,9 @@ NAVBAR STYLES
     }
 
 .navbar-default {
-	background-color: #01566e;
-	border-color: transparent;
+    background-color: rgba(1, 86, 110,0.9);
+    border-color: rgba(0, 54, 69,0.9);
+    border-bottom-width: 3px;
 }
 /* ADDED PADDING IN NAVBAR */
 .navbar {
@@ -129,7 +129,7 @@ NAVBAR STYLES
  ============================================================ */
 
 #header {
-    background: url(../img/home.jpg) no-repeat center center;
+    background: url(../img/canadaPanorama.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -159,12 +159,20 @@ NAVBAR STYLES
         text-transform: uppercase;
     }
 
-	#header a {
-		border: 1px solid #01566e;
-	}
+    #header a {
+        border: 1px solid #01566e;
+        font-size: 20px;
+    }
+        #header a:link {
+            background-color: #01566e;
+        }
+        #header a:hover {
+            background-color: rgba(0, 54, 69,0.9);
+        }
+
 
 /*================================
-    SERVICES STYLES
+    ABOUT ME STYLES
 ==================================*/
 #aboutme {
     background-color: rgba(237, 237, 237, 1);
@@ -337,8 +345,17 @@ footer {
     font-weight: 900;
     background-color: rgba(237, 237, 237, 1);
 }
-
+    footer i {
+        font-size: 40px;
+        padding: 20px;
+        color: #01566e;
+    }
+    footer a {
+        font-size: 15px;
+        padding: 10px;
+        color: #01566e;
+    }
     footer a, footer a:hover {
-        color: #000;
+        
         text-decoration: none;
     }
