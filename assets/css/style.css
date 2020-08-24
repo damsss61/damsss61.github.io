@@ -184,9 +184,14 @@ NAVBAR STYLES
 		color: #01566e;
 	}
 
+    #aboutme h3{
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+
     #aboutme h4 {
         padding-bottom: 5px;
-        padding-top: 15px;
+        padding-top: 25px;
     }
 /* =============================================================
   CLIENTS SECTION STYLES
