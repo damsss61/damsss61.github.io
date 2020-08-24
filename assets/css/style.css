@@ -193,12 +193,23 @@ NAVBAR STYLES
         padding-bottom: 5px;
         padding-top: 25px;
     }
+
+    .media img {
+        margin-right: 40px;
+        max-height: 150px;
+        margin-bottom: 20px;
+        border: 2px solid #003645;
+    }
+
+    .media img:hover {
+        opacity: 0.6;
+    }
 /* =============================================================
-  CLIENTS SECTION STYLES
+  INSPIRATIONS SECTION STYLES
  ============================================================ */
 
-#clients {
-    background: url(../img/clients.jpg) no-repeat center center;
+#inspirations {
+    background: url(../img/trompette2.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -206,7 +217,7 @@ NAVBAR STYLES
     background-attachment: fixed;
 }
 
-    #clients .overlay {
+    #inspirations .overlay {
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
@@ -215,37 +226,41 @@ NAVBAR STYLES
         padding-bottom: 100px;
     }
 
-.clients-carousel {
+.inspirations-carousel {
     margin-top: 50px; /*SMALL TOP MARGIN FOR SPACE */
     padding: 0 30px 30px 30px;
 }
 
-	.clients-carousel .thumbnail {
-		border: 1px solid #01566e;
-	}
-
-	.clients-carousel .carousel-control.left {
-		height: 30px;
-		width: 25px;
-		margin-top: 45px;
-		background: #01566e;
-		left: -15px;
-	}
-
-	.clients-carousel .carousel-control.right {
-		height: 30px;
-		width: 25px;
-		margin-top: 45px;
-		background: #01566e;
-		right: -15px;
-	}
-
-    .clients-carousel img {
-        width: 100%;
-        height: 120px;
+    .inspirations-carousel .thumbnail {
+        border: 1px solid #01566e;
     }
 
-#clients .thumbnail {
+    .inspirations-carousel .carousel-control.left {
+        height: 30px;
+        width: 25px;
+        margin-top: 45px;
+        background: #01566e;
+        left: -15px;
+    }
+
+    .inspirations-carousel .carousel-control.right {
+        height: 30px;
+        width: 25px;
+        margin-top: 45px;
+        background: #01566e;
+        right: -15px;
+    }
+
+    .inspirations-carousel h4 {
+        width: 100%;
+        height: 100px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #inspirations .thumbnail {
     background-color: transparent;
 }
 
@@ -253,6 +268,9 @@ NAVBAR STYLES
  PORTFOLIO SECTION STYLES
  ============================================================ */
 
+#works {
+    background-color: rgba(237, 237, 237, 1);
+}
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
 	background-color: #01566e;
@@ -287,7 +305,7 @@ NAVBAR STYLES
   TESTIMONIAL SECTION STYLES
  ============================================================ */
 #testimonial {
-    background: url(../img/testimonial.jpg) no-repeat center center;
+    background: url(../img/bateau.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -303,43 +321,7 @@ NAVBAR STYLES
         padding-top: 100px;
         padding-bottom: 100px;
     }
-/* =============================================================
-  TEAM SECTION STYLES
- ============================================================ */
-#team {
-    background-color: rgba(237, 237, 237, 1);
-}
 
-.media img {
-	margin-right: 40px;
-	max-height: 150px;
-	margin-bottom: 20px;
-	border: 2px solid #003645;
-}
-
-    .media img:hover {
-        opacity: 0.6;
-    }
-/* =============================================================
-  CONTACT SECTION STYLES
- ============================================================ */
-#contact {
-    background: url(../img/clients.jpg) no-repeat center center;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    -moz-background-size: cover;
-    background-attachment: fixed;
-}
-
-    #contact .overlay {
-        background-color: rgba(0,0,0,0.9);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
 /* =============================================================
   FOOTER SECTION STYLES
  ============================================================ */
