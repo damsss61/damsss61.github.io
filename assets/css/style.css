@@ -55,6 +55,9 @@ section {
 .set-bk-clr:hover {
 	background-color: rgba(0, 54, 69, 0.67);
 }
+.close {
+    color: #000;
+}
 
 /*==============================
 NAVBAR STYLES
@@ -361,6 +364,10 @@ footer {
 
 .modal {
     overflow-y: auto;
+}
+
+.modal-header {
+    background-color: rgba(1, 86, 110,0.9);
 }
 
 .modal-open {
