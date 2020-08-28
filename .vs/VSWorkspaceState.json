@@ -3,9 +3,8 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\js",
-    "\\assets\\js\\source\\helpers"
+    "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js\\bootstrap.js",
+  "SelectedNode": "\\assets\\css\\bootstrap.css",
   "PreviewInSolutionExplorer": false
 }

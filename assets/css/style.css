@@ -296,11 +296,20 @@ NAVBAR STYLES
     opacity: 0.8;
 }
 
-    #works img:hover {
-        filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-        opacity: 1;
-    }
+#works img:hover {
+    filter: none; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 1;
+}
+
+#works img.simple-img {
+    filter: none; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 1;
+}
+
+
+
 /* =============================================================
   TESTIMONIAL SECTION STYLES
  ============================================================ */
@@ -346,3 +355,23 @@ footer {
         
         text-decoration: none;
     }
+/*==================================================================
+   MODALS STYLES
+==================================================================*/
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+/*==================================================================
+   CLASS PERSO STYLES
+==================================================================*/
+
+
