@@ -79,5 +79,7 @@ $(document).ready(function () {
     //CLIENTS SLIDER
     $("#inspirations-slider").carousel({
             interval: 2000 //TIME IN MILLI SECONDS
-        });
+    });    $("#projet-slider").carousel({
+        interval: 2000 //TIME IN MILLI SECONDS
+    });
 });
