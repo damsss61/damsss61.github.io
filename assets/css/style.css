@@ -161,7 +161,7 @@ NAVBAR STYLES
  ============================================================ */
 
 #header {
-    background: url(../img/canadaPanorama.jpg) no-repeat center center;
+    background: url(../img/canada.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -175,14 +175,15 @@ NAVBAR STYLES
         min-height: 800px;
     }
 
-	#header h1 {
-		line-height: 60px;
-		font-size: 45px;
-		font-weight: 900;
-		padding-top: 200px;
-		padding-bottom: 35px;
-		color: #01566e;
-	}
+    #header h1 {
+        line-height: 60px;
+        font-size: 45px;
+        font-weight: 900;
+        padding-top: 200px;
+        padding-bottom: 35px;
+        color: rgba(1, 86, 110,1);
+        text-shadow: 0px 0px 5px rgba(0, 54, 69,1);
+    }
 
     #header h4 {
         line-height: 30px;
@@ -416,6 +417,7 @@ footer {
 
 #projet {
     background-size: 100px;
+    background-color: white;
     padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -494,5 +496,29 @@ footer {
     background-color: transparent;
 }
 
+/*==================================================================
+   TEMP STYLES
+==================================================================*/
+#temp {
+    background-size: 100px;
+    background-color: white;
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #temp .overlay {
+        background-color: rgba(0,0,0,0);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+#temp h2 {
+    text-shadow: 0px 0px 4px #000000;
+}
 
 
